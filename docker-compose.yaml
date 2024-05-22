@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  app:
+    build: .
+    tty: true
+    volumes:
+      - .:/code
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
