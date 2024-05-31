@@ -1,6 +1,6 @@
 # TrackNet_Inference
 
-Моделирование треков частиц через детектор и обработка координатов попадания (хитов) в файл.
+Моделирование треков частиц через детектор и обработка координатов попадания (хитов)
 
 ## Libtorch
 Get libtorch from https://pytorch.org/get-started/locally/ and unzip it into ```include``` directory.
